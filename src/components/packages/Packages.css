@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.packages-container{
+    font-family: "poppins";
+    margin-bottom: 258px;
+    width: 1352px;
+    height: 929px;
+    border-radius: 16px;
+    background: rgba(179, 224, 220, 0.4);
+}
+.packages-container > p{
+    text-align: center;
+    color: rgba(153, 153, 153, 1);
+    padding-top: 200px;
+}
+.packages-container > h1{
+    text-align: center;
+    color:rgba(25, 27, 28, 1);
+    padding-top: 26px;
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#card-frame{
+    width: 366px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+}
+#card-frame > span {
+    color:  rgba(153, 153, 153, 1);
+}
+.check{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+}
+span{
+    color: rgba(255, 40, 34, 1);
+}
+.grey{
+    color: rgba(153, 153, 153, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.people{
+    margin-top: 0;
+    color: rgba(153, 153, 153, 1);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+}
+hr{
+    width: 100%; 
+    height: 1px; 
+    color: rgba(153, 153, 153, 1); 
+    background-color: rgba(153, 153, 153, 1); 
+    border: none; 
+}
+button{
+    margin-left: 40px;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 287px;
+    height: 64px;
+    border: 1.5px solid #000000;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #fff;
+
+}
+#card-frame > a {
+    display: none;
+    color: #000000;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.card-frame:hover{
+    display: none;
+    transition: 0.3s ease-in-out linear;
+}
+
+/*.packages-view{
+    display: hidden;
+    
+
+
+}
+
+
+/* Container for the circle */
+/*.card .package {
+    display: hidden;
+    transition: 0.3s ease-in-out linear;
+}
+
+.card:hover .packages-view {
+    display: flex;
+    transition: 0.3s ease-in-out linear;
+}
+*/

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&display=swap');
+.content{
+    margin-top: 1200px;    
+    top: 1258px;
+    padding: 2vw;
+    width: 1250px;
+    height: 120px;
+    bottom: 1806px;
+    background-color: rgba(225, 243, 241, 1);
+    border-radius: 8px;
+}
+.content > p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.fictional-company{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+    gap: 48px;
+}

@@ -1,0 +1,87 @@
+.Faqs-container{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 1164px;
+    height: 552px;
+    left: 174px;
+    top: 2586px;
+    max-block-size: -webkit-fill-available;
+}
+.left-faqs{
+    font-family: "poppins";
+width: 448px;
+
+
+}
+.left-faqs > h1{
+width: 450px;
+height: 177px;
+left: 174px;
+top: 2753px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 140%;
+/* or 59px */
+
+letter-spacing: -0.005em;
+
+color: #191B1C;
+
+
+}
+.left-faqs > p{
+    color: rgba(153, 153, 153, 1);
+    
+}
+.right-accordian{
+    display: flex;
+    width: 60vw;
+    justify-content: end;
+    
+    
+}
+.accordian{
+    width: 500px;
+    
+}
+.item{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 37, 35, 0.05);
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+.header{
+    font-family: "poppins";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+span{
+    width: 48px;
+    color: #191B1C;
+    left: 83.2%;
+    right: 13.62%;
+    top: 49.17%;
+    bottom: 49.92%;
+    
+}
+.answer{
+    font-family: "poppins";
+    color: #191B1C;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+.answer.show{
+    font-family: "poppins";
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
