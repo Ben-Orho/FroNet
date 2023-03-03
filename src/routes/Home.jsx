@@ -7,6 +7,7 @@ import illustration from "../assets/illustration.svg"
 import "../components/styles/Home.css"
 import Partandspons from '../components/Partnerandsponsors/Partandspons'
 import Faqs from '../components/How/Faqs'
+import Gasp from '../components/Gsap/Gasp/Gsap'
 
 
 const Home = () => {
@@ -36,6 +37,7 @@ const Home = () => {
         <Faqs/>
         <Partandspons/>
         <Footer/>
+        <Gasp/>
     </div>
   )
 }
