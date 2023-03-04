@@ -20,10 +20,14 @@ const Gasp = () => {
                 </div>
                 <div className={styles.img}>
                     <img src={Avatar} alt="avatar" />
-                    <h3>Tejumade Olomola</h3>
-                    <p>ile-ife,Osun State</p>
-                    <img src={Ratings} alt="Ratings" />
+                    <div className={styles.avatardetails}>
+                        <h3>Tejumade Olomola</h3>
+                        <p>ile-ife,Osun State</p>
+                    </div>
                 </div>
+                <div className={styles.stars}>
+                        <img src={Ratings} alt="Ratings" />
+                    </div>
             </div>
         </div>
         <div className='testimonial'>
@@ -39,10 +43,14 @@ const Gasp = () => {
                 </div>
                 <div className={styles.img}>
                     <img src={Avatar} alt="avatar" />
-                    <h3>Tejumade Olomola</h3>
-                    <p>ile-ife,Osun State</p>
-                    <img src={Ratings} alt="Ratings" />
+                    <div className={styles.avatardetails}>
+                        <h3>Tejumade Olomola</h3>
+                        <p>ile-ife,Osun State</p>
+                    </div>
                 </div>
+                <div className={styles.stars}>
+                        <img src={Ratings} alt="Ratings" />
+                    </div>
             </div>
         </div>
         
